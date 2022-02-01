@@ -1,0 +1,14 @@
+question, answer
+Move left in vim (letter), h
+Move right in vim (letter), l
+Jump to the end of the line, $
+Paste BEFORE cursor, p
+Write and quit a file, :wq!
+Default mode you enter VIM in, command
+How do you move UP 10 lines in VIM?, 10k
+How do you move DOWN 10 lines in VIM?, 10j
+How do you hop from one () or {} to other side of bracker?, %
+How do you change the text within brackets such as {hi} to {hello} (command)?, ciB
+How do you indent a selected line?,>
+How do you jump 3 words to the left?,3w
+How do you jump by words?, W
