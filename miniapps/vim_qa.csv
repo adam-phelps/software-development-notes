@@ -12,3 +12,9 @@ How do you change the text within brackets such as {hi} to {hello} (command)?, c
 How do you indent a selected line?,>
 How do you jump 3 words to the left?,3w
 How do you jump by words?, W
+How do you jump to the END of an open vim document?, gg
+How do you jump to the BEGINNING of an open vim document?, GG
+How do you jump to line 5?, 5G
+How do you find the word 'wow' in a vim document?, /wow
+How do you jump between NEXT occurences of the word 'wow' in a vim document?, n
+How do you jump between PREVIOUS occurences of the word 'wow' in a vim document?, N
