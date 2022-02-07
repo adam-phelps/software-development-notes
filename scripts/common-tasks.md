@@ -8,7 +8,19 @@ The `-F` option determines how to separate the output being piped in.
 Use `$0` to print ALL output or `$1` to print first match group and so on
 until *n* matching groups.
 
-## Read in a list from a source file one line at a time and perform an operation
+### Replace ALL option (g) word occurences in a file
+
+MAC OS X
+``` bash
+sed -i '' 's/dog/cat/g' pet_story.txt
+```
+
+BASH
+``` bash
+sed -i 's/dog/cat/g' pet_story.txt
+```
+
+### Read in a list from a source file one line at a time and perform an operation
 ```bash
 MY_SERVICES="./services.txt"
 while IFS= read -r ln
@@ -17,9 +29,7 @@ do
 done < $MY_SERVICES
 ```
 
-
-
-## Find out what is taking up space in a directory
+### Find out what is taking up space in a directory
 Run du in `-h` human readable mode showing folders at depth `-d` of 2.
 Sort using `-h` human readable and sort largest to smallest `-r`.
 ```bash
@@ -69,3 +79,10 @@ git branch -d feature
 ### Apply a different stash
 `git stash apply stash@{1}`
 
+## Chome
+
+Go back to previous tab
+`CTRL+SHIFT+TAB`
+
+Go to next tab
+`CTRL+TAB`
