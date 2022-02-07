@@ -1,0 +1,21 @@
+question, answer
+How do you commit with message "test", git commit -m "test"
+How do you create a new git branch featureA?, git branch featureA
+How do you checkout the featureA branch?,git checkout featureA
+How do you create a new git branch featureA and switch to it?, git checkout -b featureA
+If you are on branch "main" how do you merge "featureA" into it?, git merge featureA
+You are on featureA branch and did work on featureA but want to incorporate latest changes from main into featureA?, git rebase main
+How do you checkout commit with hash "abcf"?, git checkout abcf
+How do you checkout the parent of main?, git checkout main^
+How do you assign a branch to a commit 3 parents from HEAD?, git branch -f main HEAD~3
+What is git method that "rewrites history"?, git reset
+How would you do a git reset to previous commit?, git reset HEAD~1
+What is git method to reverse a change and share those with others?, git revert
+How would you reset your current branch to commit "abcf"?, git reset abcf
+How would you revert your current branch main?, git revert main
+How do you cherry pick commits "a" "b" and "d"?, git cherry-pick a b d
+How do you copy down a remote branch?, git clone
+How do you pull latest changes from a remote repo?, git fetch
+You can refer to `git fetch` as a ____ step, download
+How do pull down latest changes from remote and stack your commits on top?, git pull
+How do you pull down latest changes from remote; stack on top of your commits; and merge?, git pull --rebase
