@@ -43,6 +43,20 @@ du -h -d 2 | sort -hr
 git rebase -i HEAD~2
 ```
 
+### Git commit but amend a previous commit and keep the message
+```bash
+git commit --amend --no-edit
+```
+
+### Remove last commit made but keep changes (don't delete) in workspace
+```bash
+git reset --soft HEAD~1
+```
+OR
+```bash
+git reset HEAD^ --soft
+```
+
 ### Find differences between a fast-forward merge on two branches
 ```
 git diff branch1..branch2
@@ -78,6 +92,12 @@ git branch -d feature
 
 ### Apply a different stash
 `git stash apply stash@{1}`
+
+### Rewrite local repo history
+`git reset`
+
+### Rewrite remote repo history
+`git revert`
 
 ## Chome
 
